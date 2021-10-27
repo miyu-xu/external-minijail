@@ -4,6 +4,7 @@
 *.o
 *.a
 
+/build
 /constants.json
 
 # Coverage-related files that appear when building with MODE=profiling.

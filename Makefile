@@ -3,6 +3,7 @@
 # found in the LICENSE file.
 
 BASE_VER=0
+OUT ?= build
 include common.mk
 
 LIBDIR ?= /lib
