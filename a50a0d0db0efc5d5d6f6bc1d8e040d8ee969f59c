@@ -16,6 +16,57 @@
       "message": "Friendly ping.",
       "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "94be21be_e4dd6a5e",
+        "filename": "Makefile",
+        "patchSetId": 4
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1299283
+      },
+      "writtenOn": "2022-07-18T22:00:16Z",
+      "side": 1,
+      "message": "Strictly speaking these additional comments aren\u0027t in scope of this CL\u0027s description. I don\u0027t feel strongly about moving them out though\n\nI definitely thing the new comments are a useful addition. Splitting them out might be good if there is risk we might have to revert the symlink checks because of breakages.",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ba90034_c6256d5d",
+        "filename": "util.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 452,
+      "author": {
+        "id": 1299283
+      },
+      "writtenOn": "2022-07-18T22:00:16Z",
+      "side": 1,
+      "message": "As written `/dev` would be a parent of `/device`",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "16fefe93_6a1fdce5",
+        "filename": "util_unittest.cc",
+        "patchSetId": 4
+      },
+      "lineNbr": 410,
+      "author": {
+        "id": 1299283
+      },
+      "writtenOn": "2022-07-18T22:00:16Z",
+      "side": 1,
+      "message": "Please add:\nEXPECT_FALSE(path_is_parent(\"/dev\", \"/device\"))",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
