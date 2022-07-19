@@ -37,6 +37,97 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7fb2ab21_5cf539b0",
+        "filename": "libminijail.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 830,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-07-19T04:11:37Z",
+      "side": 1,
+      "message": "i\u0027m having a hard time seeing why this isn\u0027t just:\n\n```\nprefixes \u003d strdup(BINDMOUNT_ALLOWED_PREFIXES);\n```\n\nor, alternatively, using a stack buffer:\n\n```\nchar prefixes[] \u003d BINDMOUNT_ALLOWED_PREFIXES;\n```",
+      "range": {
+        "startLine": 823,
+        "startChar": 0,
+        "endLine": 830,
+        "endChar": 66
+      },
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "77d97381_cf4ff77f",
+        "filename": "system.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 553,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-07-19T04:11:37Z",
+      "side": 1,
+      "message": "doesn\u0027t this leak the fd on success ?",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "852d80e7_d0d6afac",
+        "filename": "system.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 553,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-07-19T04:11:37Z",
+      "side": 1,
+      "message": "how is this check diff from lstat and checking `S_IFLNK` ?",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0e6ff637_6d2c635e",
+        "filename": "system.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-07-19T04:11:37Z",
+      "side": 1,
+      "message": "i guess \"basename\" refers to \"final/last path component\" ?  i think paths are normally referred to in terms of \"path components\" in cases like this.",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5b01b6f8_459b9f8b",
+        "filename": "system_unittest.cc",
+        "patchSetId": 4
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-07-19T04:11:37Z",
+      "side": 1,
+      "message": "`/proc/self` might be a more reliable target",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5ba90034_c6256d5d",
         "filename": "util.c",
         "patchSetId": 4
@@ -48,6 +139,23 @@
       "writtenOn": "2022-07-18T22:00:16Z",
       "side": 1,
       "message": "As written `/dev` would be a parent of `/device`",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8df73240_7989fe6e",
+        "filename": "util.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 458,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-07-19T04:11:37Z",
+      "side": 1,
+      "message": "wouldn\u0027t strncmp be better ?  strstr will scan the whole string.",
       "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
