@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dae9c6ad_f3685854",
+        "filename": "unittest_util.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-07-19T04:17:39Z",
+      "side": 1,
+      "message": "glancing through platform2, `test_utils.h` seems to be more common of a name",
+      "revId": "22388b956b56323543e70ee1c047c74f4ad37135",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
