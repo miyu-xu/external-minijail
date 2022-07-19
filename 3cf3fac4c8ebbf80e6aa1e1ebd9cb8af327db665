@@ -152,6 +152,30 @@
       },
       "revId": "3cf3fac4c8ebbf80e6aa1e1ebd9cb8af327db665",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f98ba108_5b6b70cf",
+        "filename": "landlock_util.h",
+        "patchSetId": 9
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1955868
+      },
+      "writtenOn": "2022-07-19T19:18:11Z",
+      "side": 1,
+      "message": "For ACCESS_FS_ROUGHLY_BASIC_WRITE: I believe LANDLOCK_ACCESS_FS_MAKE_REG should be included as well",
+      "parentUuid": "928c179e_92cc9527",
+      "range": {
+        "startLine": 43,
+        "startChar": 1,
+        "endLine": 43,
+        "endChar": 34
+      },
+      "revId": "3cf3fac4c8ebbf80e6aa1e1ebd9cb8af327db665",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
