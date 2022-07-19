@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1526f2d1_813c6389",
+        "filename": "landlock_util.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1299283
+      },
+      "writtenOn": "2022-07-19T18:48:25Z",
+      "side": 1,
+      "message": "Some of the Android builds are failing because they don\u0027t have `__NR_landlock_create_ruleset` or the other landlock syscalls. Maybe we should have an ifdef where this always returns an error (-1 with errno\u003dEINVAL) if `__NR_landlock_create_ruleset` is not defined.\n\nWe could also fall back on the actual values. WDYT @jorgelo @vapier?",
+      "revId": "31e36a955f42cd5306ef186e5275320b5e6da6d7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
