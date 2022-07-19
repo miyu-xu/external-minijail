@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "df6fbe7a_9a712660",
+        "filename": "Makefile",
+        "patchSetId": 4
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2022-07-19T23:21:51Z",
+      "side": 1,
+      "message": "That\u0027s a good point. This CL is designed to be tunable on the OS side (hence the prefixes) so I don\u0027t think we\u0027ll have to revert it. Happy to extract the comments if we think that\u0027s valuable.",
+      "parentUuid": "94be21be_e4dd6a5e",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7fb2ab21_5cf539b0",
         "filename": "libminijail.c",
         "patchSetId": 4
@@ -48,6 +66,30 @@
       "writtenOn": "2022-07-19T04:11:37Z",
       "side": 1,
       "message": "i\u0027m having a hard time seeing why this isn\u0027t just:\n\n```\nprefixes \u003d strdup(BINDMOUNT_ALLOWED_PREFIXES);\n```\n\nor, alternatively, using a stack buffer:\n\n```\nchar prefixes[] \u003d BINDMOUNT_ALLOWED_PREFIXES;\n```",
+      "range": {
+        "startLine": 823,
+        "startChar": 0,
+        "endLine": 830,
+        "endChar": 66
+      },
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a7856a8_4db6cad5",
+        "filename": "libminijail.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 830,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2022-07-19T23:21:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7fb2ab21_5cf539b0",
       "range": {
         "startLine": 823,
         "startChar": 0,
@@ -94,6 +136,42 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5e16ef03_99cec849",
+        "filename": "system.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 553,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2022-07-19T23:21:51Z",
+      "side": 1,
+      "message": "It\u0027s simpler? But conceptually it is the same check.",
+      "parentUuid": "852d80e7_d0d6afac",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b0a66d58_9576fd05",
+        "filename": "system.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 553,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2022-07-19T23:21:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "77d97381_cf4ff77f",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0e6ff637_6d2c635e",
         "filename": "system.h",
         "patchSetId": 4
@@ -105,6 +183,24 @@
       "writtenOn": "2022-07-19T04:11:37Z",
       "side": 1,
       "message": "i guess \"basename\" refers to \"final/last path component\" ?  i think paths are normally referred to in terms of \"path components\" in cases like this.",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "76d4664f_7f2a3a21",
+        "filename": "system.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2022-07-19T23:21:51Z",
+      "side": 1,
+      "message": "That\u0027s the terminology that base:: (and Python, https://docs.python.org/3/library/os.path.html#os.path.basename) uses. Happy to use either, but basename is a bit more concise.\n\nEventually we want to use RESOLVE_NO_SYMLINKS which would block symlinks anywhere in the path, hence this function specifying that it only looks for symlinks in the basename.",
+      "parentUuid": "0e6ff637_6d2c635e",
       "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
@@ -143,6 +239,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e7582be_6fada783",
+        "filename": "util.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 452,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2022-07-19T23:21:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5ba90034_c6256d5d",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8df73240_7989fe6e",
@@ -160,6 +274,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "956786cd_37dfb3ad",
+        "filename": "util.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 458,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2022-07-19T23:21:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8df73240_7989fe6e",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "16fefe93_6a1fdce5",
@@ -173,6 +305,24 @@
       "writtenOn": "2022-07-18T22:00:16Z",
       "side": 1,
       "message": "Please add:\nEXPECT_FALSE(path_is_parent(\"/dev\", \"/device\"))",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "12e8435b_df552bcc",
+        "filename": "util_unittest.cc",
+        "patchSetId": 4
+      },
+      "lineNbr": 410,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2022-07-19T23:21:51Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "16fefe93_6a1fdce5",
       "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
