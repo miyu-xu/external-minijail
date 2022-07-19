@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bd57c98d_8959f147",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1299283
+      },
+      "writtenOn": "2022-07-19T16:15:54Z",
+      "side": 1,
+      "message": "The android builds are running into a linking error:\n```\nld.lld: error: undefined symbol: landlock_create_ruleset\n```\nYou probably need to update their build files in parallel with the Makefile.",
+      "revId": "91607c0fbb0034ccdc3e754982001b2778910e28",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
