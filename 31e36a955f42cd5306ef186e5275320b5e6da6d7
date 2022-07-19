@@ -16,6 +16,24 @@
       "message": "Some of the Android builds are failing because they don\u0027t have `__NR_landlock_create_ruleset` or the other landlock syscalls. Maybe we should have an ifdef where this always returns an error (-1 with errno\u003dEINVAL) if `__NR_landlock_create_ruleset` is not defined.\n\nWe could also fall back on the actual values. WDYT @jorgelo @vapier?",
       "revId": "31e36a955f42cd5306ef186e5275320b5e6da6d7",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3c699119_f6e6751b",
+        "filename": "landlock_util.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1955868
+      },
+      "writtenOn": "2022-07-19T21:17:33Z",
+      "side": 1,
+      "message": "Added these as #ifndef rules similar to gen_syscalls-inl.h. The syscall numbers we care about for landlock (444, 445, and 446) seem to be the same across x86_64, i386, and arm64 (https://source.corp.google.com/piper///depot/google3/third_party/qemu/linux-headers/asm-x86/unistd_64.h;l\u003d361, https://source.corp.google.com/piper///depot/google3/third_party/appliance_linux/packages/linux/linux_5_17/arch/arm/tools/syscall.tbl;l\u003d462, https://source.corp.google.com/piper///depot/google3/third_party/appliance_linux/packages/linux/linux_5_17/arch/arm64/include/asm/unistd32.h;l\u003d902?q\u003dlandlock\u0026ss\u003dpiper%2FGoogle%2FPiper:google3%2Fthird_party%2Fappliance_linux%2Fpackages%2Flinux%2Flinux_5_17%2Farch%2Farm64%2F).\n\nBased on our GVC discussion, it also sounds like the kernel version will not always match the header version on ChromeOS.",
+      "parentUuid": "1526f2d1_813c6389",
+      "revId": "31e36a955f42cd5306ef186e5275320b5e6da6d7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
