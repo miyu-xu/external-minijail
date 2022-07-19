@@ -547,3 +547,9 @@ bool seccomp_filter_flags_available(unsigned int flags)
 	return sys_seccomp(SECCOMP_SET_MODE_FILTER, flags, NULL) != -1 ||
 	       errno != EINVAL;
 }
+
+bool has_basename_symlink(const char *path)
+{
+	attribute_cleanup_fd int fd = open(path, O_RDONLY | O_NOFOLLOW);
+	return fd == -1 && errno == ELOOP;
+}
