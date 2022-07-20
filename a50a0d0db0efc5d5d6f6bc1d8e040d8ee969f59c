@@ -243,6 +243,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9cb7c1de_2169d714",
+        "filename": "system.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2022-07-20T16:48:15Z",
+      "side": 1,
+      "message": "My concern is that this doesn\u0027t cover symlinks in intermediate path components, so I didn\u0027t want the function name to imply that we were checking for symlinks on any path component. For that, we need something like RESOLVE_NO_SYMLINKS.",
+      "parentUuid": "06a2d8c2_f7f46238",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5b01b6f8_459b9f8b",
         "filename": "system_unittest.cc",
         "patchSetId": 4
