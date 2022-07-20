@@ -53,6 +53,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "81f42c48_d8408f50",
+        "filename": "Makefile",
+        "patchSetId": 4
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2022-07-20T23:30:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "df6fbe7a_9a712660",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7fb2ab21_5cf539b0",
@@ -326,6 +344,24 @@
       "writtenOn": "2022-07-19T04:11:37Z",
       "side": 1,
       "message": "`/proc/self` might be a more reliable target",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "755e889d_4002864b",
+        "filename": "system_unittest.cc",
+        "patchSetId": 4
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2022-07-20T23:30:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5b01b6f8_459b9f8b",
       "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
