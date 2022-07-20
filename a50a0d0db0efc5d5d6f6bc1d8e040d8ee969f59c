@@ -172,6 +172,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7d0626e3_29a1668a",
+        "filename": "system.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 553,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-07-20T04:08:18Z",
+      "side": 1,
+      "message": "i don\u0027t think it\u0027s simpler.  stat has no side-effects.  open updates the file descriptor table.  iiuc, that makes it more expensive to process in the kernel. in a multithread/multiprocess situation, this also opens it to leaks.  if this code were used only in the context of `minijail_run`, that might be a bit forgivable, but this shows up when simply constructing the minijail state.\n\nbasically, as a library, imo we should be opening file descriptors only when necessary, and in this case, it looks like lstat should suffice.",
+      "parentUuid": "5e16ef03_99cec849",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0e6ff637_6d2c635e",
         "filename": "system.h",
         "patchSetId": 4
@@ -201,6 +219,24 @@
       "side": 1,
       "message": "That\u0027s the terminology that base:: (and Python, https://docs.python.org/3/library/os.path.html#os.path.basename) uses. Happy to use either, but basename is a bit more concise.\n\nEventually we want to use RESOLVE_NO_SYMLINKS which would block symlinks anywhere in the path, hence this function specifying that it only looks for symlinks in the basename.",
       "parentUuid": "0e6ff637_6d2c635e",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "06a2d8c2_f7f46238",
+        "filename": "system.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-07-20T04:08:18Z",
+      "side": 1,
+      "message": "what\u0027s throwing me off is that this isn\u0027t really doing a basename operation.  it\u0027s just doing `path_is_a_symlink`.  maybe it should be called that instead ?",
+      "parentUuid": "76d4664f_7f2a3a21",
       "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
