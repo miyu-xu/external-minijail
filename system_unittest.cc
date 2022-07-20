@@ -247,3 +247,8 @@ TEST(seccomp_actions_available, smoke) {
   seccomp_ret_log_available();
   seccomp_ret_kill_process_available();
 }
+
+TEST(is_symlink, basic) {
+  EXPECT_TRUE(is_symlink("/proc/self"));
+  EXPECT_FALSE(is_symlink("/"));
+}

@@ -547,3 +547,13 @@ bool seccomp_filter_flags_available(unsigned int flags)
 	return sys_seccomp(SECCOMP_SET_MODE_FILTER, flags, NULL) != -1 ||
 	       errno != EINVAL;
 }
+
+bool is_symlink(const char *path)
+{
+	struct stat statbuf;
+	if (lstat(path, &statbuf) == -1) {
+		pwarn("lstat(%s) failed", path);
+		return false;
+	}
+	return S_ISLNK(statbuf.st_mode);
+}
