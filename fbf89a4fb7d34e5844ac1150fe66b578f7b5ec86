@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "55921f45_0ce1e75a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2022-07-20T23:29:05Z",
+      "side": 1,
+      "message": "Alright, I fixed Mike\u0027s comments and removed the extra Makefile comments that Allen pointed out.\n\nI also changed this to only check the source path for now, because the destination path is allowed to not exist when minijail_bind() is called (it gets created later during mount_one()), so we cannot check it at minijail_bind() time.",
+      "revId": "fbf89a4fb7d34e5844ac1150fe66b578f7b5ec86",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

@@ -206,6 +206,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "471b29d9_d04ef986",
+        "filename": "system.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 553,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2022-07-20T23:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5423e353_55a329b7",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0e6ff637_6d2c635e",
@@ -273,6 +291,24 @@
       "side": 1,
       "message": "My concern is that this doesn\u0027t cover symlinks in intermediate path components, so I didn\u0027t want the function name to imply that we were checking for symlinks on any path component. For that, we need something like RESOLVE_NO_SYMLINKS.",
       "parentUuid": "06a2d8c2_f7f46238",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1118ea9_d2fd0b33",
+        "filename": "system.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2022-07-20T23:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9cb7c1de_2169d714",
       "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
