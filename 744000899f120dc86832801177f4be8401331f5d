@@ -48,6 +48,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a2e5ca89_6035a7b9",
+        "filename": "Makefile",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-07-21T17:04:58Z",
+      "side": 1,
+      "message": "unfortunately we have to take it up with Apple :/",
+      "parentUuid": "49834e6a_b293f9e5",
+      "range": {
+        "startLine": 38,
+        "startChar": 18,
+        "endLine": 38,
+        "endChar": 27
+      },
+      "revId": "744000899f120dc86832801177f4be8401331f5d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9e6dd9e5_fd464807",
