@@ -333,6 +333,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "89321be0_8bfdc4c9",
+        "filename": "system.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-07-21T06:41:12Z",
+      "side": 1,
+      "message": "i\u0027ll note that openat2\u0027s man page says \"the trailing component (i.e., basename)\" ;)\n\nmaybe `path_is_a_symlink` vs `path_has_symlinks` ?\n\nthe only way `RESOLVE_NO_SYMLINKS` would fully work is if we opened the handle, saved the handle, and passed that later to the mount APIs.  afaik, no such fd-based APIs exist, and we\u0027d need something like fsopen[1] to pull it off.\n[1] https://lwn.net/Articles/759499/\n\nthe way this CL is written, we\u0027re doing checking during object init, not during jail activation.  so there\u0027s a TOCTOU window here.  but as noted above, without kernel support, i don\u0027t think we can do better.  am i missing something ?\n\nwhat about utilizing realpath(3) ?  that would process all symlinks for us, and we could compare the result to what we started with.",
+      "parentUuid": "9cb7c1de_2169d714",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5b01b6f8_459b9f8b",
         "filename": "system_unittest.cc",
         "patchSetId": 4
