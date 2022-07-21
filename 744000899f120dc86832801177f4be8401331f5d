@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8cfa2b09_6d01c779",
+        "filename": "Makefile",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-07-21T06:42:02Z",
+      "side": 1,
+      "message": "\"ChromeOS\"",
+      "range": {
+        "startLine": 38,
+        "startChar": 18,
+        "endLine": 38,
+        "endChar": 27
+      },
+      "revId": "744000899f120dc86832801177f4be8401331f5d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9e6dd9e5_fd464807",
+        "filename": "Makefile",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-07-21T06:42:02Z",
+      "side": 1,
+      "message": "\"ChromeOS\"",
+      "range": {
+        "startLine": 48,
+        "startChar": 61,
+        "endLine": 48,
+        "endChar": 70
+      },
+      "revId": "744000899f120dc86832801177f4be8401331f5d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
