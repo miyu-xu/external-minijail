@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb7c1723_663fe67e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2022-07-22T19:05:50Z",
+      "side": 1,
+      "message": "Alright, I think I\u0027ve fixed all the comments at this point.",
+      "revId": "66b0e0bd1e827fb6c518d69696af131706b83253",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
