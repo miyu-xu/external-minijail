@@ -349,6 +349,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "669b6b33_142c9f05",
+        "filename": "system.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2022-07-22T19:05:28Z",
+      "side": 1,
+      "message": "Yeah, even with realpath(3) we still have the opportunity for a race, though I will say that the window is a lot smaller if we also do this check at mount_one time, not just at minijail_bind time. But I also want to detect this failure early, so we\u0027ll start with this and then extend to performing the same check at mount_one time.\n\nHow about I use realpath(), call the function \"path_is_canonical\", and check in minijail_bind for this CL (which fixes the bug that originally prompted this work), and then follow up with more checks in mount_one.",
+      "parentUuid": "89321be0_8bfdc4c9",
+      "revId": "a50a0d0db0efc5d5d6f6bc1d8e040d8ee969f59c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5b01b6f8_459b9f8b",

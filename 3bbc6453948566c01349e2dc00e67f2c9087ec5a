@@ -16,6 +16,24 @@
       "message": "i don\u0027t know if the compiler guarantees strlen won\u0027t be called more than once.  last i looked (albeit long ago) it wasn\u0027t.\n\nmore readable anyways with something like ?\n\n```\nsize_t plen \u003d strlen(parent);\nreturn strncmp(parent, child, plen) \u003d\u003d 0 \u0026\u0026\n...\n```",
       "revId": "3bbc6453948566c01349e2dc00e67f2c9087ec5a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36a108f6_e96f11ed",
+        "filename": "util.c",
+        "patchSetId": 9
+      },
+      "lineNbr": 461,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2022-07-22T19:05:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8d361cd4_77ebcae4",
+      "revId": "3bbc6453948566c01349e2dc00e67f2c9087ec5a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
