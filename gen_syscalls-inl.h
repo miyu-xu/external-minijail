@@ -77,3 +77,7 @@
 #ifndef __NR_faccessat2
 #define __NR_faccessat2 439
 #endif
+
+#ifndef __NR_rseq
+#define __NR_rseq 334
+#endif
