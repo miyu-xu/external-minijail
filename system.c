@@ -212,7 +212,9 @@ int config_net_loopback(void)
 	/* The kernel preserves ifr.ifr_name for use. */
 	ifr.ifr_flags |= IFF_UP | IFF_RUNNING;
 	if (ioctl(sock, SIOCSIFFLAGS, &ifr) < 0) {
-		pwarn("ioctl(SIOCSIFFLAGS) failed");
+		/* crbug.com/1226229: Suppress error message in case of EPERM error. */
+		if (errno != EPERM)
+			pwarn("ioctl(SIOCSIFFLAGS) failed");
 		return -1;
 	}
 
