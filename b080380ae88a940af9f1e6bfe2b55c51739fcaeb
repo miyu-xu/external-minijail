@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "abba1f0c_b6419a74",
+        "filename": "system.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2022-07-25T16:14:46Z",
+      "side": 1,
+      "message": "End with period.",
+      "range": {
+        "startLine": 215,
+        "startChar": 58,
+        "endLine": 215,
+        "endChar": 63
+      },
+      "revId": "b080380ae88a940af9f1e6bfe2b55c51739fcaeb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
