@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ede7ad34_0e018225",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-07-26T15:02:44Z",
+      "side": 1,
+      "message": "i don\u0027t think we should throw away the log.  posted comments to https://crbug.com/1226229 for discussion.",
+      "revId": "d6bf5a488b41cf13a97d6999acd7813307c985da",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
