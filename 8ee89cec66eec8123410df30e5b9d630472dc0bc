@@ -16,6 +16,24 @@
       "message": "unlike others arches above, this is not a common number.  this only works for x86_64.",
       "revId": "8ee89cec66eec8123410df30e5b9d630472dc0bc",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e19253c_78e91e22",
+        "filename": "gen_syscalls-inl.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1944400
+      },
+      "writtenOn": "2022-07-26T02:39:28Z",
+      "side": 1,
+      "message": "Thanks, I should have scrolled up more. I didn\u0027t realize those were special and assumed we only cared about this working on x86_64. Fixed.",
+      "parentUuid": "6eff179c_860a9100",
+      "revId": "8ee89cec66eec8123410df30e5b9d630472dc0bc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
