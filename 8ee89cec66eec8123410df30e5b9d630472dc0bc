@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6eff179c_860a9100",
+        "filename": "gen_syscalls-inl.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-07-26T01:41:44Z",
+      "side": 1,
+      "message": "unlike others arches above, this is not a common number.  this only works for x86_64.",
+      "revId": "8ee89cec66eec8123410df30e5b9d630472dc0bc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
