@@ -37,6 +37,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "fd784d62_297f9e1a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1299283
+      },
+      "writtenOn": "2022-08-08T22:58:32Z",
+      "side": 1,
+      "message": "Minijail is in the process of moving back to chromium.googlesource.com:\nhttps://chromium.googlesource.com/chromiumos/platform/minijail/\n\nSee b/240742087",
+      "revId": "3a4a31bf52b4553e61c59d2466a4d45cd2190fe4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "43a6acb1_1966389f",
         "filename": "rust/minijail/src/lib.rs",
         "patchSetId": 2
