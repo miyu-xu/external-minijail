@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95a633bf_20a3bea3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1955868
+      },
+      "writtenOn": "2022-08-09T18:40:21Z",
+      "side": 1,
+      "message": "This is obsolete in favor of the version in the Chromium repo at https://chromium-review.googlesource.com/c/chromiumos/platform/minijail/+/3820902",
+      "revId": "8844d2fc6425ca8a3aefe4559314dca1cd39f065",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
