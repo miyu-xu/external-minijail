@@ -52,6 +52,23 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "63af5801_54425dd0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1067793
+      },
+      "writtenOn": "2022-08-17T01:48:42Z",
+      "side": 1,
+      "message": "moved to https://chromium-review.googlesource.com/c/chromiumos/platform/minijail/+/3833624/1",
+      "revId": "3a4a31bf52b4553e61c59d2466a4d45cd2190fe4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "43a6acb1_1966389f",
