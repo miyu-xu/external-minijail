@@ -4,7 +4,7 @@ The Minijail homepage is
 https://google.github.io/minijail/.
 
 The main source repo is
-https://android.googlesource.com/platform/external/minijail/.
+https://chromium.googlesource.com/chromiumos/platform/minijail.
 
 There might be other copies floating around, but this is the official one!
 
@@ -21,12 +21,12 @@ and a library that can be used by code to sandbox itself.
 You're one `git clone` away from happiness.
 
 ```
-$ git clone https://android.googlesource.com/platform/external/minijail
+$ git clone https://chromium.googlesource.com/chromiumos/platform/minijail
 $ cd minijail
 ```
 
 Releases are tagged as `linux-vXX`:
-https://android.googlesource.com/platform/external/minijail/+refs
+https://chromium.googlesource.com/chromiumos/platform/minijail/+refs
 
 ## Building
 
@@ -49,14 +49,14 @@ We've got a couple of contact points.
 * [minijail-dev@google.com]: Internal Google developer mailing list.
 * [crbug.com/list]: Existing bug reports & feature requests.
 * [crbug.com/new]: File new bug reports & feature requests.
-* [AOSP Gerrit]: Code reviews.
+* [Chromium Gerrit]: Code reviews.
 
 [minijail@chromium.org]: https://groups.google.com/a/chromium.org/forum/#!forum/minijail
 [minijail-users@google.com]: https://groups.google.com/a/google.com/forum/#!forum/minijail-users
 [minijail-dev@google.com]: https://groups.google.com/a/google.com/forum/#!forum/minijail-dev
 [crbug.com/list]: https://crbug.com/?q=component:OS>Systems>Minijail
 [crbug.com/new]: https://bugs.chromium.org/p/chromium/issues/entry?components=OS>Systems>Minijail
-[AOSP Gerrit]: https://android-review.googlesource.com/q/project:platform/external/minijail
+[Chromium Gerrit]: https://chromium-review.googlesource.com/q/project:chromiumos/platform/minijail
 
 ## Talks and presentations
 
