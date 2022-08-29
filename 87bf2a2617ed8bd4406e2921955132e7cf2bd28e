@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33425103_d5f1e74a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1955868
+      },
+      "writtenOn": "2022-08-29T16:05:10Z",
+      "side": 1,
+      "message": "The changes to the README look good. Ideally, https://b.corp.google.com/issues/240570062 would allow automatic syncing and make this unneeded.\n\nHowever, this will be helpful for now if jorgelo doesn\u0027t see any issues",
+      "revId": "87bf2a2617ed8bd4406e2921955132e7cf2bd28e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
