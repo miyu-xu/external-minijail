@@ -34,6 +34,24 @@
       "parentUuid": "33425103_d5f1e74a",
       "revId": "87bf2a2617ed8bd4406e2921955132e7cf2bd28e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c15ae896_d85b9d05",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1368670
+      },
+      "writtenOn": "2022-08-30T07:26:28Z",
+      "side": 1,
+      "message": "Yes this is absolutely true. However, the situation is now super confusing: The website (https://google.github.io/minijail/) and this repo\u0027s readme point to\n  https://android.googlesource.com/platform/external/minijail/\n\nwhile the official repo is now at\n  https://chromium.googlesource.com/chromiumos/platform/minijail/\n\nBoth locations state:\n  \"There might be other copies floating around, but those are the official ones!\"\n\nSo I think we absolutely should still update this repo\u0027s README. I refrained from adding a text like \"repo location has changed\", but maybe we should do that as well.",
+      "parentUuid": "0e7bb6f4_e072db00",
+      "revId": "87bf2a2617ed8bd4406e2921955132e7cf2bd28e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
