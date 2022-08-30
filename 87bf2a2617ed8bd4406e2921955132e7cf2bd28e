@@ -52,6 +52,24 @@
       "parentUuid": "0e7bb6f4_e072db00",
       "revId": "87bf2a2617ed8bd4406e2921955132e7cf2bd28e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b5de7c3f_918a3036",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-08-30T07:39:03Z",
+      "side": 1,
+      "message": "the fix is to get the Android team to setup the sync, not to fork the repos.  i don\u0027t think the situation is nearly as dire as you portray.  the vast majority of people who develop this project are CrOS devs, and we know what\u0027s going on.",
+      "parentUuid": "c15ae896_d85b9d05",
+      "revId": "87bf2a2617ed8bd4406e2921955132e7cf2bd28e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
