@@ -106,6 +106,24 @@
       "parentUuid": "1d0178b2_1f208360",
       "revId": "87bf2a2617ed8bd4406e2921955132e7cf2bd28e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "494193fe_a1e15b18",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1368670
+      },
+      "writtenOn": "2022-08-30T09:28:17Z",
+      "side": 1,
+      "message": "I guess I could have phrased this more nuanced wrt the OSS status - I did not want to diminish your involvement. I guess that\u0027s a case of maintainer-splaining on my part? :)\n\n\u003e i don\u0027t know why the Android team isn\u0027t responding on the bug.  time to escalate i guess.\n\nMaybe. It\u0027s been a month after all.",
+      "parentUuid": "0bc151f5_b4a81127",
+      "revId": "87bf2a2617ed8bd4406e2921955132e7cf2bd28e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
