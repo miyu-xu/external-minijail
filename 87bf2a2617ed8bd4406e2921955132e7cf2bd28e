@@ -70,6 +70,24 @@
       "parentUuid": "c15ae896_d85b9d05",
       "revId": "87bf2a2617ed8bd4406e2921955132e7cf2bd28e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d0178b2_1f208360",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1368670
+      },
+      "writtenOn": "2022-08-30T07:45:27Z",
+      "side": 1,
+      "message": "Fair enough. However, this is an OSS project of its own. So people googling \"Minijail\" _will_ find the wrong repo first.\n  https://screenshot.googleplex.com/8bj8rsDeBMTmJuK.png\n\nClosing this one, as I subscribed to the bug.",
+      "parentUuid": "b5de7c3f_918a3036",
+      "revId": "87bf2a2617ed8bd4406e2921955132e7cf2bd28e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
