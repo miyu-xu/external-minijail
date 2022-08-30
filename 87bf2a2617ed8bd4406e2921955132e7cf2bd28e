@@ -88,6 +88,24 @@
       "parentUuid": "b5de7c3f_918a3036",
       "revId": "87bf2a2617ed8bd4406e2921955132e7cf2bd28e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0bc151f5_b4a81127",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-08-30T09:12:15Z",
+      "side": 1,
+      "message": "i\u0027m fully aware of the OSS status having helped setup the GH project and having been the sole author of all of the GH pages you highlighted in that search result.  https://google.github.io/minijail/ exists because i created it.\n\nforking the Android repo will disrupt the OSS users you highlight: the Android fork will be pushed to GH, and once we get the GH sync fixed to use Chromium, the CrOS history will become active thus causing people to see history rewritten.\n\ni don\u0027t know why the Android team isn\u0027t responding on the bug.  time to escalate i guess.",
+      "parentUuid": "1d0178b2_1f208360",
+      "revId": "87bf2a2617ed8bd4406e2921955132e7cf2bd28e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
