@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a31e1041_475d8c31",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-09-14T12:13:29Z",
+      "side": 1,
+      "message": "use `git cherry-pick -x` rather than write your own log message",
+      "revId": "c60be0bd5f4da07c7a0e186bbbda002228dc593d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7efb2d87_06c3d310",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-09-14T12:13:29Z",
+      "side": 1,
+      "message": "would really prefer you did a merge commit here.  you should be able to do `git merge ddc532c07a25769b350e92b0a22d0e23e66a5395` and upload that merge commit instead.",
+      "revId": "c60be0bd5f4da07c7a0e186bbbda002228dc593d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
