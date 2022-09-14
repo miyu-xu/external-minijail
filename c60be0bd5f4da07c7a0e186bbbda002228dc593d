@@ -18,6 +18,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0cecfe82_53867f88",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1052399
+      },
+      "writtenOn": "2022-09-14T22:18:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a31e1041_475d8c31",
+      "revId": "c60be0bd5f4da07c7a0e186bbbda002228dc593d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7efb2d87_06c3d310",
@@ -31,6 +49,24 @@
       "writtenOn": "2022-09-14T12:13:29Z",
       "side": 1,
       "message": "would really prefer you did a merge commit here.  you should be able to do `git merge ddc532c07a25769b350e92b0a22d0e23e66a5395` and upload that merge commit instead.",
+      "revId": "c60be0bd5f4da07c7a0e186bbbda002228dc593d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bd2f70f3_7c9c8c71",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1052399
+      },
+      "writtenOn": "2022-09-14T22:18:01Z",
+      "side": 1,
+      "message": "Not sure if it is something missing in my local setting or the minijail branches are incorrect. I got the following error:\n\ngit merge ddc532c07a25769b350e92b0a22d0e23e66a5395\nfatal: refusing to merge unrelated histories\n\nCould you try that?",
+      "parentUuid": "7efb2d87_06c3d310",
       "revId": "c60be0bd5f4da07c7a0e186bbbda002228dc593d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
