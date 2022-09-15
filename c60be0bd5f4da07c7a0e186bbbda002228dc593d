@@ -87,6 +87,24 @@
       "parentUuid": "bd2f70f3_7c9c8c71",
       "revId": "c60be0bd5f4da07c7a0e186bbbda002228dc593d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74b564fd_78d4fcd2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1052399
+      },
+      "writtenOn": "2022-09-15T19:56:45Z",
+      "side": 1,
+      "message": "Done. I still have problem with my AOSP tree. Now I only git clone external/minijail project and then git merge, git push for this review.",
+      "parentUuid": "68560779_a0b1c1d6",
+      "revId": "c60be0bd5f4da07c7a0e186bbbda002228dc593d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
