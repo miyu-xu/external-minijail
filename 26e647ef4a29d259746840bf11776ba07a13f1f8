@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a3cbce8e_66bd5c5e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2022-09-15T18:08:42Z",
+      "side": 1,
+      "message": "minijail is maintained at https://chromium.googlesource.com/chromiumos/platform/minijail now.  should we let Android folks take over this fork and purge Android-specific files out of upstream ?  or shouldn\u0027t changes be submitted to upstream and merged back into Android ?",
+      "revId": "26e647ef4a29d259746840bf11776ba07a13f1f8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
