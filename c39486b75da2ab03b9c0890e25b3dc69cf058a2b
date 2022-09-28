@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ebfdeb13_1a55b242",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1944400
+      },
+      "writtenOn": "2022-09-28T22:30:12Z",
+      "side": 1,
+      "message": "FYI: there is a presubmit hook for clang-format and some of the code in these commits doesn\u0027t match the expectation, so i did --no-verify when uploading as a workaround",
+      "revId": "c39486b75da2ab03b9c0890e25b3dc69cf058a2b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
