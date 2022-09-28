@@ -16,6 +16,24 @@
       "message": "Hi. Do you think this makes sense to send to the chromeos repo instead? If so, do you have any updated instructions? The README still references android gerrit https://chromium.googlesource.com/chromiumos/platform/minijail/+/HEAD/HACKING.md#code-review",
       "revId": "fa8b63653b620b1358f5f84999e70fea658d6774",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f05a7e79_6e1c4143",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1944400
+      },
+      "writtenOn": "2022-09-28T00:20:19Z",
+      "side": 1,
+      "message": "Sent upstream as https://crrev.com/c/3923841",
+      "parentUuid": "def43b0d_63bede59",
+      "revId": "fa8b63653b620b1358f5f84999e70fea658d6774",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
