@@ -51,6 +51,24 @@
       "parentUuid": "b40097e1_f49d6cd7",
       "revId": "c39486b75da2ab03b9c0890e25b3dc69cf058a2b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10f0b845_f98e5b10",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1944400
+      },
+      "writtenOn": "2022-09-29T22:54:31Z",
+      "side": 1,
+      "message": "Thanks. I\u0027ve confirmed that the `realpath(kPreloadPath, nullptr)` calls always failed on android, but the error was ignored before. The one case that did check for an error was disabled because userns isn\u0027t supported on android.\n\nWe should probably disable these test cases an android somehow.",
+      "parentUuid": "fb25afee_4e38bb96",
+      "revId": "c39486b75da2ab03b9c0890e25b3dc69cf058a2b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
