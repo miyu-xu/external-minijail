@@ -86,6 +86,24 @@
       "message": "Allen or Will: Can you approve while Mike is ooo. ty.\n\nAlso, since it looks like upstream moved back to Chromium, maybe we need to add OWNERS.android for the team.",
       "revId": "c39486b75da2ab03b9c0890e25b3dc69cf058a2b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2c7f92b0_ea7c5402",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1042276
+      },
+      "writtenOn": "2022-10-05T15:40:48Z",
+      "side": 1,
+      "message": "Will has left security for long enough. I don\u0027t expect him to monitor this.\n\nAnyway, I filed b/249841918 last week to figure out the new OWNERS, hoping jeffv would know anyone on Android team who was involved in the development.",
+      "parentUuid": "53488f38_69922216",
+      "revId": "c39486b75da2ab03b9c0890e25b3dc69cf058a2b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
