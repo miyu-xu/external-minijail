@@ -69,6 +69,23 @@
       "parentUuid": "fb25afee_4e38bb96",
       "revId": "c39486b75da2ab03b9c0890e25b3dc69cf058a2b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53488f38_69922216",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2022-10-05T04:24:54Z",
+      "side": 1,
+      "message": "Allen or Will: Can you approve while Mike is ooo. ty.\n\nAlso, since it looks like upstream moved back to Chromium, maybe we need to add OWNERS.android for the team.",
+      "revId": "c39486b75da2ab03b9c0890e25b3dc69cf058a2b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
