@@ -104,6 +104,24 @@
       "parentUuid": "53488f38_69922216",
       "revId": "c39486b75da2ab03b9c0890e25b3dc69cf058a2b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "81e68705_aa809b7f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1944400
+      },
+      "writtenOn": "2022-10-06T03:02:04Z",
+      "side": 1,
+      "message": "I\u0027ve added an `#ifdef ANDROID` block to the test\u0027s preload function as a quick workaround.\n\nI\u0027ll wait a bit before submitting to see if anyone objects. I can send a better fix upstream if anyone has a good idea.",
+      "parentUuid": "10f0b845_f98e5b10",
+      "revId": "c39486b75da2ab03b9c0890e25b3dc69cf058a2b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
