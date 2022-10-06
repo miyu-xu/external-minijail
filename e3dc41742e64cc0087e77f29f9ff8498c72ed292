@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "41409777_81706810",
+        "filename": "libminijail_unittest.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1042276
+      },
+      "writtenOn": "2022-10-06T15:58:27Z",
+      "side": 1,
+      "message": "nit: There\u0027s already many similar checks like this.  For consistency, I\u0027d suggest\n\n```\n#if defined(__ANDROID__)\n  // ...\n  return;\n#else\n  ...\n#endif\n```\n\nAny idea what the preload library does? Why is it not needed on Android? Is it just that the current tests don\u0027t need it?",
+      "range": {
+        "startLine": 107,
+        "startChar": 0,
+        "endLine": 107,
+        "endChar": 14
+      },
+      "revId": "e3dc41742e64cc0087e77f29f9ff8498c72ed292",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
