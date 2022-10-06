@@ -22,6 +22,30 @@
       },
       "revId": "e3dc41742e64cc0087e77f29f9ff8498c72ed292",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f10215d0_145cf3bf",
+        "filename": "libminijail_unittest.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1944400
+      },
+      "writtenOn": "2022-10-06T16:33:26Z",
+      "side": 1,
+      "message": "Done, but I didn\u0027t include an else branch because it causes unused variable warnings and the delta would get a lot bigger if I compensate with more `#if`s.\n\nFrom a quick read, it seems that it moves the jailing code to the other side of `exec` (in the launched process). I have no idea why the tests are setting it if they don\u0027t require it.\n\nSetting the preload path in these tests isn\u0027t new, the only relevant change in this merge is that now the tests are checking if the file actually exists (https://crrev.com/c/3850510). Before, only one test that did that and it is skipped on android because of lack of userns support.",
+      "parentUuid": "41409777_81706810",
+      "range": {
+        "startLine": 107,
+        "startChar": 0,
+        "endLine": 107,
+        "endChar": 14
+      },
+      "revId": "e3dc41742e64cc0087e77f29f9ff8498c72ed292",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
