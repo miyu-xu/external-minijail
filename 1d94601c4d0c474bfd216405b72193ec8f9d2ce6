@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "acb8e89e_5506282f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2022-10-11T22:44:20Z",
+      "side": 1,
+      "message": "I think we have automatic replication of branches now, but I guess this makes sense.",
+      "revId": "1d94601c4d0c474bfd216405b72193ec8f9d2ce6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
