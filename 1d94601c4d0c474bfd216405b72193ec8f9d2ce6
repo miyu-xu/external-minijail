@@ -16,6 +16,24 @@
       "message": "I think we have automatic replication of branches now, but I guess this makes sense.",
       "revId": "1d94601c4d0c474bfd216405b72193ec8f9d2ce6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "824994d5_76aeec65",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1042276
+      },
+      "writtenOn": "2022-10-11T23:11:57Z",
+      "side": 1,
+      "message": "Thanks Jorge.  I removed the original owners because in a recent code review (merging from upstream, and require a manual fix), Will was added as a reviewer.  Gerrit shows all of the owners.  I hope there\u0027s a way for Gerrit to recognize emeritus reviewers.",
+      "parentUuid": "acb8e89e_5506282f",
+      "revId": "1d94601c4d0c474bfd216405b72193ec8f9d2ce6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
