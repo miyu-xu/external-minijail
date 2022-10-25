@@ -16,6 +16,29 @@
       "message": "PTAL",
       "revId": "65a3a7db0f657b8215eb566c0ff4b604ed4c2056",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8acb3630_a8e162bc",
+        "filename": "rust/minijail-sys/cargo2android.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1042276
+      },
+      "writtenOn": "2022-10-25T20:35:16Z",
+      "side": 1,
+      "message": "Allen, do you know why minijail.pic is used?  Should Android migrate from shared library?",
+      "range": {
+        "startLine": 9,
+        "startChar": 2,
+        "endLine": 12,
+        "endChar": 3
+      },
+      "revId": "65a3a7db0f657b8215eb566c0ff4b604ed4c2056",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
