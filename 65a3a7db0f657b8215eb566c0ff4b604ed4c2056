@@ -18,6 +18,23 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7702248d_2ff3c009",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1042276
+      },
+      "writtenOn": "2022-10-26T16:42:40Z",
+      "side": 1,
+      "message": "I\u0027m not sure why I need an owner vote since I\u0027m one of the owners.  Alistair, could you PTAL?",
+      "revId": "65a3a7db0f657b8215eb566c0ff4b604ed4c2056",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8acb3630_a8e162bc",
