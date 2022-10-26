@@ -39,6 +39,30 @@
       },
       "revId": "65a3a7db0f657b8215eb566c0ff4b604ed4c2056",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "81cc7bd7_53b6ef4e",
+        "filename": "rust/minijail-sys/cargo2android.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1299283
+      },
+      "writtenOn": "2022-10-26T13:57:51Z",
+      "side": 1,
+      "message": "I think we can switch to the shared library since that should give us space savings. It might have been used for cases when a fully static executable is needed.",
+      "parentUuid": "8acb3630_a8e162bc",
+      "range": {
+        "startLine": 9,
+        "startChar": 2,
+        "endLine": 12,
+        "endChar": 3
+      },
+      "revId": "65a3a7db0f657b8215eb566c0ff4b604ed4c2056",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
