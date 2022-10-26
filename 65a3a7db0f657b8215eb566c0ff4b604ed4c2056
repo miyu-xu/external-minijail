@@ -63,6 +63,30 @@
       },
       "revId": "65a3a7db0f657b8215eb566c0ff4b604ed4c2056",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bdcffc60_7c9ebd97",
+        "filename": "rust/minijail-sys/cargo2android.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1042276
+      },
+      "writtenOn": "2022-10-26T15:40:41Z",
+      "side": 1,
+      "message": "Ack.  If you don\u0027t necessarily need .pic, that\u0027d make the build config the simplest.  We can then simply remove these lines once the change is pulled to this downstream.",
+      "parentUuid": "81cc7bd7_53b6ef4e",
+      "range": {
+        "startLine": 9,
+        "startChar": 2,
+        "endLine": 12,
+        "endChar": 3
+      },
+      "revId": "65a3a7db0f657b8215eb566c0ff4b604ed4c2056",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
