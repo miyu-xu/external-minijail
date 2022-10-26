@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "839d8855_097bc839",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1042276
+      },
+      "writtenOn": "2022-10-26T23:50:17Z",
+      "side": 1,
+      "message": "Xin, there are no owners now due to the wrong setup.  Are you able to approve this?  Thanks for the pointer BTW.",
+      "revId": "1ea39aaca55ea440645649085efdeab11567c7ce",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
