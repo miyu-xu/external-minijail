@@ -83,6 +83,18 @@ cc_defaults {
         darwin: {
             enabled: false,
         },
+        // Our glibc prebuilts are too old to contain the definitions
+        // of MADV_FREE and __NR_membarrier, but they are used internally
+        // by musl requiring them to be listed in crosvm's seccomp policies.
+        // Define them here to avoid errors when starting crosvm:
+        //  invalid constant'MADV_FREE'
+        //  nonexistent syscall 'membarrier'
+        glibc: {
+            cflags: ["-DMADV_FREE=8"],
+        },
+        glibc_x86_64: {
+            cflags: ["-D__NR_membarrier=324"],
+        }
     },
 }
 
