@@ -16,6 +16,24 @@
       "message": "Note that this repo is now a downstream from https://chromium-review.googlesource.com/q/project:chromiumos/platform/minijail\n\nPlease make sure this change is upstreamed (preferably first, but I see a topic so there might be complications).",
       "revId": "45b8aa469386ff5a39c322cb5447f8d42d8ee385",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eceaae88_038b2943",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2023-01-03T17:51:38Z",
+      "side": 1,
+      "message": "Agree, but okay to submit this in parallel to get the revert in.",
+      "parentUuid": "341a97b1_9c93f76a",
+      "revId": "45b8aa469386ff5a39c322cb5447f8d42d8ee385",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
