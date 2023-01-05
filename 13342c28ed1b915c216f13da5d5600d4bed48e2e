@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d58e2281_a9f29c39",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1042276
+      },
+      "writtenOn": "2023-01-05T16:33:56Z",
+      "side": 1,
+      "message": "Upstream of both crosvm and minijail are not in Android.  Something similar has probably been done there if upstream crosvm needs this.\n\n+1 to unblock the crosvm merge, but could you also try to see if there\u0027s any divergence from the upstream, and fix it if so?\n\nhttps://chromium-review.googlesource.com/q/project:chromiumos/platform/minijail",
+      "revId": "13342c28ed1b915c216f13da5d5600d4bed48e2e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
