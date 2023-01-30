@@ -16,17 +16,15 @@
 #include "minijail0_cli.h"
 #include "util.h"
 
-int main(int argc, char *argv[], char *environ[])
+int main(int argc, char *argv[])
 {
 	struct minijail *j = minijail_new();
 	const char *dl_mesg = NULL;
 	const char *preload_path = PRELOADPATH;
 	int exit_immediately = 0;
 	ElfType elftype = ELFERROR;
-	char **envp = NULL;
-	int consumed = parse_args(j, argc, argv, environ,
-				  &exit_immediately, &elftype,
-				  &preload_path, &envp);
+	int consumed = parse_args(j, argc, argv, &exit_immediately, &elftype,
+				  &preload_path);
 	argc -= consumed;
 	argv += consumed;
 
@@ -63,14 +61,9 @@ int main(int argc, char *argv[], char *environ[])
 			return 1;
 		}
 		minijail_set_preload_path(j, preload_path);
-		if (envp) {
-			minijail_run_env(j, argv[0], argv, envp);
-		} else {
-			minijail_run(j, argv[0], argv);
-		}
-	} else {
+		minijail_run(j, argv[0], argv);
+	} else
 		errx(1, "Target program '%s' is not a valid ELF file", argv[0]);
-	}
 
 	if (exit_immediately)
 		return 0;
