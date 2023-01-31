@@ -59,11 +59,6 @@ def parse_args(argv):
         '--denylist',
         action='store_true',
         help='Check as a denylist policy rather than the default allowlist.')
-    parser.add_argument(
-        '--failures-return-nonzero',
-        action='store_true',
-        help='Make the linter return nonzero on failure.'
-    )
     parser.add_argument('policy',
                             help='The seccomp policy.',
                             type=argparse.FileType('r', encoding='utf-8'))
@@ -133,20 +128,13 @@ def main(argv=None):
 
     opts, _arg_parser = parse_args(argv)
 
-    check = check_seccomp_policy(opts.policy)
+    ret = check_seccomp_policy(opts.policy)
 
     formatted_items = ''
-    if check.errors:
+    if ret.errors:
         item_prefix = '\n    * '
-        formatted_items = item_prefix + item_prefix.join(check.errors)
-
-    print('* ' + check.message + formatted_items)
-
-    ret = 0
-    if check.errors and opts.failures_return_nonzero:
-        ret = 1
-
-    return ret
+        formatted_items = item_prefix + item_prefix.join(ret.errors)
+    print('* ' + ret.message + formatted_items)
 
 if __name__ == '__main__':
     sys.exit(main(sys.argv[1:]))
