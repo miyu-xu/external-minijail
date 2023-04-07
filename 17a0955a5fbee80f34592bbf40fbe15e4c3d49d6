@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2aabcbc5_2535fd61",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1081758
+      },
+      "writtenOn": "2023-04-07T06:50:41Z",
+      "side": 1,
+      "message": "Add riscv support and fix build error.\nPass minijail gtest on Android12 riscv device.",
+      "revId": "17a0955a5fbee80f34592bbf40fbe15e4c3d49d6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
