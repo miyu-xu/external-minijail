@@ -35,6 +35,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "adf83100_ff977cae",
+        "filename": "PREUPLOAD.cfg",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1042276
+      },
+      "writtenOn": "2023-04-07T20:12:39Z",
+      "side": 1,
+      "message": "Done. Thanks for catching!",
+      "parentUuid": "1197231c_95a36c08",
+      "revId": "4ec41d174fae270b6ca1d448f787e9f611649309",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8cc3711d_2bc9f3b1",
@@ -48,6 +66,24 @@
       "writtenOn": "2023-04-07T18:09:00Z",
       "side": 1,
       "message": "maybe ignore merge commits and ones with \"(cherry picked from commit ...)\" lines too ?",
+      "revId": "4ec41d174fae270b6ca1d448f787e9f611649309",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "af3c0587_e55afc1f",
+        "filename": "tools/repo_upload_warning",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1042276
+      },
+      "writtenOn": "2023-04-07T20:12:39Z",
+      "side": 1,
+      "message": "I\u0027m not sure.  `cherry picked from commit` isn\u0027t clear to me, e.g. it could be between AOSP and internal tree.  I added an alternative to check `^(UPSTREAM|Upstream):` instead.  PTAL.",
+      "parentUuid": "8cc3711d_2bc9f3b1",
       "revId": "4ec41d174fae270b6ca1d448f787e9f611649309",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
