@@ -16,6 +16,40 @@
       "message": "PTAL",
       "revId": "4ec41d174fae270b6ca1d448f787e9f611649309",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1197231c_95a36c08",
+        "filename": "PREUPLOAD.cfg",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2023-04-07T18:09:00Z",
+      "side": 1,
+      "message": "did you mean to include PREUPLOAD_COMMIT ?",
+      "revId": "4ec41d174fae270b6ca1d448f787e9f611649309",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8cc3711d_2bc9f3b1",
+        "filename": "tools/repo_upload_warning",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2023-04-07T18:09:00Z",
+      "side": 1,
+      "message": "maybe ignore merge commits and ones with \"(cherry picked from commit ...)\" lines too ?",
+      "revId": "4ec41d174fae270b6ca1d448f787e9f611649309",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
