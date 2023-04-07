@@ -16,6 +16,23 @@
       "message": "Add riscv support and fix build error.\nPass minijail gtest on Android12 riscv device.",
       "revId": "17a0955a5fbee80f34592bbf40fbe15e4c3d49d6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b559efd9_a8e82a78",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1042276
+      },
+      "writtenOn": "2023-04-07T15:13:36Z",
+      "side": 1,
+      "message": "Can you submit this to the upstream first?\nhttps://chromium-review.googlesource.com/q/project:chromiumos/platform/minijail",
+      "revId": "17a0955a5fbee80f34592bbf40fbe15e4c3d49d6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
