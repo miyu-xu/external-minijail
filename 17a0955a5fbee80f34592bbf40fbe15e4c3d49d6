@@ -50,6 +50,24 @@
       "message": "this is already fixed upstream.  Android should merge the latest upstream changes instead.",
       "revId": "17a0955a5fbee80f34592bbf40fbe15e4c3d49d6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cc26d6d6_8ae4dd97",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2023-04-07T15:51:28Z",
+      "side": 1,
+      "message": "i think sadafebrahimi looked at syncing minijail with upstream the other day (wanting to set up upstream-master so it\u0027s semi-automatable) and found that we\u0027ve diverged quite a lot?\n\nbut it looks like this _isn\u0027t_ fixed upstream yet? https://chromium.googlesource.com/chromiumos/platform/minijail/+/refs/heads/main/gen_syscalls-inl.h\n\n```\n/* Ideally minijail is compiled against a modern libc, which has modern copies\n * of Linux uapi for ioctls, and unistd.h for syscalls. However, sometimes this\n * isn\u0027t possible - such as when building with the Android host toolchain - so\n * locally define the system calls in use in active seccomp policy files.\n * This UAPI is taken from sanitized bionic headers.\n */\n```\n+ccross for whether this is something we can switch over to musl (which will use the bionic uapi headers anyway) soon.\n\nbut also --- does upstream chromium actually need this file, or is it just for Android? if the latter, couldn\u0027t we just use the bionic uapi headers directly?\n\nor is that file already obsolete, and we only need the other half of the change, which is already upstream (https://chromium.googlesource.com/chromiumos/platform/minijail/+/76d76dcdd0262c6a569374d4eaedddcd245dcb5f%5E%21/#F0)?",
+      "parentUuid": "b04d8611_f042e4db",
+      "revId": "17a0955a5fbee80f34592bbf40fbe15e4c3d49d6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
