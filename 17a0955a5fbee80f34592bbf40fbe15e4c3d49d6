@@ -33,6 +33,23 @@
       "message": "Can you submit this to the upstream first?\nhttps://chromium-review.googlesource.com/q/project:chromiumos/platform/minijail",
       "revId": "17a0955a5fbee80f34592bbf40fbe15e4c3d49d6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b04d8611_f042e4db",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2023-04-07T15:13:57Z",
+      "side": 1,
+      "message": "this is already fixed upstream.  Android should merge the latest upstream changes instead.",
+      "revId": "17a0955a5fbee80f34592bbf40fbe15e4c3d49d6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
