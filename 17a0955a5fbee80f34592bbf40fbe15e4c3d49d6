@@ -85,6 +85,24 @@
       "message": "Just FYI, I\u0027m adding a repo hook to nudge code review to upstream first.\n\nhttps://android-review.git.corp.google.com/c/platform/external/minijail/+/2528601",
       "revId": "17a0955a5fbee80f34592bbf40fbe15e4c3d49d6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "72832363_208039fb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1040868
+      },
+      "writtenOn": "2023-04-07T16:54:48Z",
+      "side": 1,
+      "message": "gen_syscalls.sh is used upstream.  linux-x86/ is Android-specific.  changes to gen_syscalls-inl.h should be sent upstream.",
+      "parentUuid": "cc26d6d6_8ae4dd97",
+      "revId": "17a0955a5fbee80f34592bbf40fbe15e4c3d49d6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
