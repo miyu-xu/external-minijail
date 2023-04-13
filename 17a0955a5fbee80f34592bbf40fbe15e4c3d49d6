@@ -103,6 +103,24 @@
       "parentUuid": "cc26d6d6_8ae4dd97",
       "revId": "17a0955a5fbee80f34592bbf40fbe15e4c3d49d6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cfae9f25_6d279633",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2023-04-13T22:40:02Z",
+      "side": 1,
+      "message": "looks like this was already fixed upstream by https://chromium.googlesource.com/chromiumos/platform/minijail/+/76d76dcdd0262c6a569374d4eaedddcd245dcb5f\n\nlooks like this project isn\u0027t getting regular updates, so we should just cherrypick the one change? (if so: https://android-review.git.corp.google.com/c/platform/external/minijail/+/2537030)",
+      "parentUuid": "72832363_208039fb",
+      "revId": "17a0955a5fbee80f34592bbf40fbe15e4c3d49d6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
