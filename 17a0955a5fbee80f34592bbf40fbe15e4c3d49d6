@@ -139,6 +139,24 @@
       "parentUuid": "cfae9f25_6d279633",
       "revId": "17a0955a5fbee80f34592bbf40fbe15e4c3d49d6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "46bd713d_e90c4706",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2023-04-13T23:05:07Z",
+      "side": 1,
+      "message": "mm in this directory with a riscv64 lunch fails without the .py patch but succeeds with it. i don\u0027t understand why the .h change would be necessary unless you were trying to support a glibc riscv64 host, which isn\u0027t something we\u0027ll be doing. (if we do ever support a riscv64 host, it\u0027ll be long after we\u0027ve switched to musl for the host anyway.)",
+      "parentUuid": "2e64a662_4920d190",
+      "revId": "17a0955a5fbee80f34592bbf40fbe15e4c3d49d6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
