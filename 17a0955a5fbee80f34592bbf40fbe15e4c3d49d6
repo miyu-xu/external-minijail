@@ -157,6 +157,24 @@
       "parentUuid": "2e64a662_4920d190",
       "revId": "17a0955a5fbee80f34592bbf40fbe15e4c3d49d6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fb514f7e_193014b3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1042276
+      },
+      "writtenOn": "2023-04-13T23:07:41Z",
+      "side": 1,
+      "message": "I see.  I\u0027ve +2\u0027ed the other change.",
+      "parentUuid": "46bd713d_e90c4706",
+      "revId": "17a0955a5fbee80f34592bbf40fbe15e4c3d49d6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
