@@ -24,6 +24,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1cf18e2b_b336acb1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000205
+      },
+      "writtenOn": "2023-11-13T23:35:19Z",
+      "side": 1,
+      "message": "Yes, I was just waiting for the presubmit run to finish since I have experienced it getting cancelled before when updating CLs.",
+      "parentUuid": "d12d52ef_7abe79e1",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 3
+      },
+      "revId": "c64abf9101de3d3c91d1b73e1c979277bac65bb5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "29e9cba0_7c33bb1a",
@@ -37,6 +61,30 @@
       "writtenOn": "2023-11-13T23:30:02Z",
       "side": 1,
       "message": "crosvm",
+      "range": {
+        "startLine": 9,
+        "startChar": 15,
+        "endLine": 9,
+        "endChar": 21
+      },
+      "revId": "c64abf9101de3d3c91d1b73e1c979277bac65bb5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "152e149a_1b560512",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000205
+      },
+      "writtenOn": "2023-11-13T23:35:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "29e9cba0_7c33bb1a",
       "range": {
         "startLine": 9,
         "startChar": 15,
@@ -78,6 +126,24 @@
       "side": 1,
       "message": "Let\u0027s update the rationale since it\u0027s no longer temporary",
       "parentUuid": "365bdb63_ef701576",
+      "revId": "c64abf9101de3d3c91d1b73e1c979277bac65bb5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "63a4b4e4_16111a6b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000205
+      },
+      "writtenOn": "2023-11-13T23:35:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "097a7276_39324add",
       "revId": "c64abf9101de3d3c91d1b73e1c979277bac65bb5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
