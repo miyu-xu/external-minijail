@@ -3,6 +3,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d12d52ef_7abe79e1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1042276
+      },
+      "writtenOn": "2023-11-13T23:30:02Z",
+      "side": 1,
+      "message": "Is this ready to review?",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 3
+      },
+      "revId": "c64abf9101de3d3c91d1b73e1c979277bac65bb5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "29e9cba0_7c33bb1a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1042276
+      },
+      "writtenOn": "2023-11-13T23:30:02Z",
+      "side": 1,
+      "message": "crosvm",
+      "range": {
+        "startLine": 9,
+        "startChar": 15,
+        "endLine": 9,
+        "endChar": 21
+      },
+      "revId": "c64abf9101de3d3c91d1b73e1c979277bac65bb5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "365bdb63_ef701576",
         "filename": "/COMMIT_MSG",
         "patchSetId": 1
@@ -14,6 +60,24 @@
       "writtenOn": "2023-11-13T23:04:48Z",
       "side": 1,
       "message": "These files are not available upstream, so that will probably not be needed. Also cargo2android.py adds \"vendor_available: true,\" without any changes to the cargo2android.json files here, so this change can probably be merged in its current form.",
+      "revId": "c64abf9101de3d3c91d1b73e1c979277bac65bb5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "097a7276_39324add",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1042276
+      },
+      "writtenOn": "2023-11-13T23:30:02Z",
+      "side": 1,
+      "message": "Let\u0027s update the rationale since it\u0027s no longer temporary",
+      "parentUuid": "365bdb63_ef701576",
       "revId": "c64abf9101de3d3c91d1b73e1c979277bac65bb5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
