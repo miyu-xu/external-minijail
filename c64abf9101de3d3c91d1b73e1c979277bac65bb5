@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "365bdb63_ef701576",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000205
+      },
+      "writtenOn": "2023-11-13T23:04:48Z",
+      "side": 1,
+      "message": "These files are not available upstream, so that will probably not be needed. Also cargo2android.py adds \"vendor_available: true,\" without any changes to the cargo2android.json files here, so this change can probably be merged in its current form.",
+      "revId": "c64abf9101de3d3c91d1b73e1c979277bac65bb5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
