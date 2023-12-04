@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "426ca732_606224e1",
+        "filename": "rust/minijail-sys/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1042276
+      },
+      "writtenOn": "2023-12-04T18:05:09Z",
+      "side": 1,
+      "message": "Looks like this is the default? Otherwise, if it\u0027s not used, I\u0027d think we would change the config?",
+      "range": {
+        "startLine": 33,
+        "startChar": 4,
+        "endLine": 33,
+        "endChar": 28
+      },
+      "revId": "d0108049d62adcb3d2fa00ba3be6e5a15af8ef47",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
