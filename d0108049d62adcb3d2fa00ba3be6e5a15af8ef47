@@ -22,6 +22,30 @@
       },
       "revId": "d0108049d62adcb3d2fa00ba3be6e5a15af8ef47",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5917fe3d_31de50e0",
+        "filename": "rust/minijail-sys/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1380243
+      },
+      "writtenOn": "2023-12-04T19:03:49Z",
+      "side": 1,
+      "message": "Yes, this was added as the default in cargo2android.py.",
+      "parentUuid": "426ca732_606224e1",
+      "range": {
+        "startLine": 33,
+        "startChar": 4,
+        "endLine": 33,
+        "endChar": 28
+      },
+      "revId": "d0108049d62adcb3d2fa00ba3be6e5a15af8ef47",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
