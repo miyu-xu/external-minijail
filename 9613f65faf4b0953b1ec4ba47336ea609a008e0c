@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eead00be_486043a9",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1229339
+      },
+      "writtenOn": "2024-12-19T01:02:23Z",
+      "side": 1,
+      "message": "`-Wno-unused-command-line-argument` must be after `-Wall`, because otherwise, `-Wall` turns the warning back on.",
+      "revId": "9613f65faf4b0953b1ec4ba47336ea609a008e0c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
