@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "625144dc_b5023afc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1229339
+      },
+      "writtenOn": "2024-12-19T00:49:44Z",
+      "side": 1,
+      "message": "Does this change also need to be submitted to chromium-review.googlesource.com/c/chromiumos/platform/minijail?\n\nIt doesn\u0027t appear that changes from chromium are merging into the AOSP copy, and I also see three Android.bp commits in AOSP that aren\u0027t in the chromium copy.",
+      "revId": "49a17808fccc3d8ba3f106f0aae9b2e691a26544",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
