@@ -208,6 +208,7 @@ cc_object {
     host_supported: true,
     cflags: [
         "-S",
+        "-Wno-unused-command-line-argument",
         "-O0",
         "-emit-llvm",
     ],
@@ -230,6 +231,7 @@ cc_object {
     host_supported: true,
     cflags: [
         "-S",
+        "-Wno-unused-command-line-argument",
         "-O0",
         "-emit-llvm",
     ],
