@@ -16,6 +16,23 @@
       "message": "@victorhsieh@google.com, this doesn\u0027t actually build 😞\n\nI\u0027m getting the following error:\n\n```\nFAILED: out/soong/.intermediates/external/minijail/rust/minijail-sys/libminijail_sys/linux_glibc_x86_64_rlib_rlib-std/libminijail_sys.rlib\nOUT_DIR\u003dout ANDROID_RUST_VERSION\u003d1.83.0 CARGO_CRATE_NAME\u003dminijail_sys CARGO_PKG_NAME\u003dminijail_sys CARGO_PKG_VERSION\u003d0.0.13 CARGO_PKG_VERSION_MAJOR\u003d0 CARGO_PKG_VERSION_MINOR\u003d0 CARGO_PKG_VERSION_PATCH\u003d13 prebuilts/rust/linux-x86/1.83.0/bin/rustc -C linker\u003dout/host/linux-x86/bin/rustc_linker -C link-args\u003d\"--android-clang-bin\u003dprebuilts/clang/host/linux-x86/clang-r547379/bin/clang++  -Wl,--as-needed -target x86_64-unknown-linux-gnu -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--no-undefined-version --gcc-toolchain\u003dprebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8 -Wl,--compress-debug-sections\u003dzstd -m64 -Bprebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8/lib/gcc/x86_64-linux/4.8.3 -Lprebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8/lib/gcc/x86_64-linux/4.8.3 -Lprebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8/x86_64-linux/lib64 -Bprebuilts/clang/host/linux-x86/clang-r547379/bin -fuse-ld\u003dlld -Wl,--undefined-version  --sysroot prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8/sysroot -Wl,-rpath,\\$ORIGIN/ -Wl,-rpath,\\$ORIGIN/lib64 -Wl,-rpath,\\$ORIGIN/../lib64 -Wl,-rpath,\\$ORIGIN/../../lib64 -Wl,-rpath,\\$ORIGIN/../../../lib64 -lc -lrt -ldl -lpthread -lm -lgcc_s -Wl,--compress-debug-sections\u003dzstd out/soong/.intermediates/external/libcap/libcap/linux_glibc_x86_64_shared/libcap.so out/soong/.intermediates/external/minijail/libminijail/linux_glibc_x86_64_shared/libminijail.so \" --emit link -o out/soong/.intermediates/external/minijail/rust/minijail-sys/libminijail_sys/linux_glibc_x86_64_rlib_rlib-std/libminijail_sys.rlib --emit dep-info\u003dout/soong/.intermediates/external/minijail/rust/minijail-sys/libminijail_sys/linux_glibc_x86_64_rlib_rlib-std/libminijail_sys.rlib.d.raw external/minijail/rust/minijail-sys/lib.rs --extern libc\u003dout/soong/.intermediates/external/rust/android-crates-io/crates/libc/liblibc/linux_glibc_x86_64_rlib_rlib-std/liblibc.rlib --extern std\u003dprebuilts/rust/linux-x86/1.83.0/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-1e0f8b2a97f11549.rlib -L prebuilts/rust/linux-x86/1.83.0/lib/rustlib/x86_64-unknown-linux-gnu/lib/ -L prebuilts/rust/linux-x86/1.83.0/lib/rustlib/x86_64-unknown-linux-gnu/lib -L out/soong/.intermediates/external/libcap/libcap/linux_glibc_x86_64_shared/ -L out/soong/.intermediates/external/minijail/libminijail/linux_glibc_x86_64_shared/ -Z unstable-options -Z stack-protector\u003dstrong -Z remap-cwd-prefix\u003d. -C debuginfo\u003d2 -C opt-level\u003d3 -C relocation-model\u003dpic -C overflow-checks\u003don -C force-unwind-tables\u003dyes -C symbol-mangling-version\u003dv0 --color\u003dalways -Z dylib-lto -Z link-native-libraries\u003dno --cfg soong   --cap-lints allow --edition\u003d2018 -C metadata\u003dlibminijail_sys --crate-type\u003drlib --crate-name\u003dminijail_sys --target\u003dx86_64-unknown-linux-gnu --sysroot\u003d/dev/null -C codegen-units\u003d1 \u0026\u0026 grep ^out/soong/.intermediates/external/minijail/rust/minijail-sys/libminijail_sys/linux_glibc_x86_64_rlib_rlib-std/libminijail_sys.rlib: out/soong/.intermediates/external/minijail/rust/minijail-sys/libminijail_sys/linux_glibc_x86_64_rlib_rlib-std/libminijail_sys.rlib.d.raw \u003e out/soong/.intermediates/external/minijail/rust/minijail-sys/libminijail_sys/linux_glibc_x86_64_rlib_rlib-std/libminijail_sys.rlib.d\nerror: couldn\u0027t read external/minijail/rust/minijail-sys/out/libminijail.rs: No such file or directory (os error 2)\n  --\u003e external/minijail/rust/minijail-sys/lib.rs:14:5\n   |\n14 |     include!(concat!(env!(\"OUT_DIR\"), \"/libminijail.rs\"));\n   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n   |\n   \u003d note: this error originates in the macro `include` (in Nightly builds, run with -Z macro-backtrace for more info)\n```\n\nAny idea what might be causing this?",
       "revId": "d330543a560c1b8c1a0bdbcff48bc4a93ed07eca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ac59432_bc98c0cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1042276
+      },
+      "writtenOn": "2025-02-18T23:29:33Z",
+      "side": 1,
+      "message": "Andrew, do you know?",
+      "revId": "d330543a560c1b8c1a0bdbcff48bc4a93ed07eca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
