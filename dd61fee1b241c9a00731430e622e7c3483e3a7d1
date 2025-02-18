@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a3747621_aab57a6f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1644679
+      },
+      "writtenOn": "2025-02-18T23:18:55Z",
+      "side": 1,
+      "message": "I tried to merge upstream minijail instead of this cherry-pick but it fails to build: https://android-review.git.corp.google.com/c/platform/external/minijail/+/3498989/comments/3af8b3ad_8eaf83ff",
+      "revId": "dd61fee1b241c9a00731430e622e7c3483e3a7d1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
