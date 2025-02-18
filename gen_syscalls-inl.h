@@ -102,6 +102,7 @@
 #endif
 #endif /* __NR_userfaultfd */
 
+<<<<<<< HEAD   (113ad6 Suppress errors about unused -c arguments)
 #ifndef __NR_membarrier
 #ifdef __x86_64__
 #define __NR_membarrier 324
@@ -111,3 +112,9 @@
 #define __NR_membarrier 283
 #endif
 #endif /* __NR_membarrier */
+||||||| BASE
+=======
+#ifndef __NR_mseal
+#define __NR_mseal 462
+#endif /* __NR_mseal */
+>>>>>>> BRANCH (7bdbb4 system: cleanup leaked FILE)
