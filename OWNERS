@@ -6,6 +6,14 @@ adelva@google.com
 victorhsieh@google.com
 
 # Emeritus.
+<<<<<<< HEAD   (113ad6 Suppress errors about unused -c arguments)
 #drewry@google.com
 #keescook@google.com
 include platform/system/core:/janitors/OWNERS #{LAST_RESORT_SUGGESTION}
+||||||| BASE
+drewry@google.com
+keescook@google.com
+=======
+drewry@google.com #{LAST_RESORT_SUGGESTION}
+keescook@google.com #{LAST_RESORT_SUGGESTION}
+>>>>>>> BRANCH (7bdbb4 system: cleanup leaked FILE)
