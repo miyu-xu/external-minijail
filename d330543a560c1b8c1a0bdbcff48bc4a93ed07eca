@@ -33,6 +33,24 @@
       "message": "Andrew, do you know?",
       "revId": "d330543a560c1b8c1a0bdbcff48bc4a93ed07eca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4a7ad764_79094001",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1380243
+      },
+      "writtenOn": "2025-02-19T00:46:54Z",
+      "side": 1,
+      "message": "Looks like you deleted libminijail.rs, maybe the merge got messed up?",
+      "parentUuid": "3af8b3ad_8eaf83ff",
+      "revId": "d330543a560c1b8c1a0bdbcff48bc4a93ed07eca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
