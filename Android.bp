@@ -463,9 +463,8 @@ cc_test {
     data: ["test/*"],
     test_options: {
         tags: ["no-remote"],
-    }
+    },
 }
-
 
 // Configuration file parser functionality unit tests using gtest.
 //
@@ -554,4 +553,41 @@ cc_binary {
 
     static_libs: ["libminijail_generated"],
     shared_libs: minijailCommonLibraries + ["libminijail"],
+}
+
+rust_bindgen {
+    name: "libminijail_bindings",
+    crate_name: "minijail_bindings",
+    source_stem: "libminijail",
+    wrapper_src: "libminijail.h",
+    shared_libs: ["libminijail"],
+    host_supported: true,
+    product_available: true,
+    vendor_available: true,
+    apex_available: [
+        "//apex_available:platform",
+        "com.android.compos",
+        "com.android.virt",
+    ],
+
+    // These come from rust/minijail-sys/build.rs
+    bindgen_flags: [
+        "--blocklist-type=__rlim64_t",
+        "--raw-line=pub type __rlim64_t = u64;",
+        "--blocklist-type=__u\\d{1,2}",
+        "--blocklist-type=__uint64_t",
+        "--raw-line=pub type __u8 = u8;",
+        "--raw-line=pub type __u16 = u16;",
+        "--raw-line=pub type __u32 = u32;",
+        "--allowlist-function=^minijail_.*",
+        "--allowlist-var=^MINIJAIL_.*",
+        "--default-enum-style rust",
+        "--disable-header-comment",
+    ],
+    cflags: [
+        "-DUSE_BINDGEN",
+        "-D_FILE_OFFSET_BITS=64",
+        "-D_LARGEFILE_SOURCE",
+        "-D_LARGEFILE64_SOURCE",
+    ],
 }
