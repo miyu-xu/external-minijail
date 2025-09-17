@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0cc6cfb9_93e7f2dc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1535516
+      },
+      "writtenOn": "2025-09-17T00:47:30Z",
+      "side": 1,
+      "message": "I think this cl is supposed to be on the internal gerrit here: https://chromium-review.googlesource.com/q/project:chromiumos/platform/minijail\n\nbut how do I get it there? I followed these instructions but it just lead to this aosp cl: go/cros-infra-dev-setup#download-the-chromiumos-source-code",
+      "revId": "2a495e9976e37f461da73e8512a124b940c78c8f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
