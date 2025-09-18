@@ -34,6 +34,24 @@
       "parentUuid": "0cc6cfb9_93e7f2dc",
       "revId": "2a495e9976e37f461da73e8512a124b940c78c8f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0d7b33e7_f516adff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1535516
+      },
+      "writtenOn": "2025-09-18T19:29:25Z",
+      "side": 1,
+      "message": "Yes, I did do that repo init. I had only synced the minijail repo before, but after a full sync it tole me:\n\n```\nThis repo has migrated to the \"main\" branch.  Please update your checkout:\n$ repo init -b main\n$ repo sync\n```\n\nDoing that allowed me to upload to https://chromium-review.googlesource.com/c/chromiumos/platform/minijail/+/6967311\n\nI\u0027ll send a cl updating the instructions.",
+      "parentUuid": "ba013d06_94b44fdc",
+      "revId": "2a495e9976e37f461da73e8512a124b940c78c8f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
