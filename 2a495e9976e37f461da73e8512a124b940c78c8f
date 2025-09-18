@@ -16,6 +16,24 @@
       "message": "I think this cl is supposed to be on the internal gerrit here: https://chromium-review.googlesource.com/q/project:chromiumos/platform/minijail\n\nbut how do I get it there? I followed these instructions but it just lead to this aosp cl: go/cros-infra-dev-setup#download-the-chromiumos-source-code",
       "revId": "2a495e9976e37f461da73e8512a124b940c78c8f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ba013d06_94b44fdc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013030
+      },
+      "writtenOn": "2025-09-18T09:19:35Z",
+      "side": 1,
+      "message": "\u003e but how do I get it there? I followed these instructions but it just lead to this aosp cl: go/cros-infra-dev-setup#download-the-chromiumos-source-code\n\nNot sure how that can happen - the instructions there specifically talk about the internal chromium manifest? Did you `repo init https://chrome-internal.googlesource.com/chromeos/manifest-internal.git`",
+      "parentUuid": "0cc6cfb9_93e7f2dc",
+      "revId": "2a495e9976e37f461da73e8512a124b940c78c8f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
