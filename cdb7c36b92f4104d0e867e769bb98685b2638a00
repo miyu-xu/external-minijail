@@ -51,6 +51,23 @@
       "parentUuid": "58297a81_89213b22",
       "revId": "cdb7c36b92f4104d0e867e769bb98685b2638a00",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "37fbaac1_95758240",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4366877
+      },
+      "writtenOn": "2025-11-09T20:24:51Z",
+      "side": 1,
+      "message": "repo download -b change-827443 platform/external/minijail 827443",
+      "revId": "cdb7c36b92f4104d0e867e769bb98685b2638a00",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
