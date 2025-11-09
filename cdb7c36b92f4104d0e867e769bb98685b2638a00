@@ -16,6 +16,41 @@
       "message": "827443: tools/syscall_analyzer: Support arm | https://android-review.googlesource.com/c/platform/external/minijail/+/827443",
       "revId": "cdb7c36b92f4104d0e867e769bb98685b2638a00",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0c19c2b_5d7350bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4366877
+      },
+      "writtenOn": "2025-11-09T20:24:04Z",
+      "side": 1,
+      "message": "Pp",
+      "revId": "cdb7c36b92f4104d0e867e769bb98685b2638a00",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a0b77ae7_4c10a521",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4366877
+      },
+      "writtenOn": "2025-11-09T20:24:04Z",
+      "side": 1,
+      "message": "git fetch https://android.googlesource.com/platform/external/minijail refs/changes/42/827442/1 \u0026\u0026 git cherry-pick FETCH_HEAD",
+      "parentUuid": "58297a81_89213b22",
+      "revId": "cdb7c36b92f4104d0e867e769bb98685b2638a00",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
